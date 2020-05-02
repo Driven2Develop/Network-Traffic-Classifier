@@ -1,0 +1,12 @@
+1. new columns for src and dst addresses
+2. data discretizer
+	-replace source and destination ports
+	-bin the ports by categorizing them in 10 buckets: 1-10
+	-assign the buckets based on if the source port lands in 6400, 12800, ... 640000
+3. divide the data in a 70-30 training and knowledge (?) respectively. 
+4. run the machine learning algos
+	-data tree
+	-SVM
+	-gradient boost tree
+5. store in a pickle object
+	-calculate: accuracy, precision and recall values
