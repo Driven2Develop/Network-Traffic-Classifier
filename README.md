@@ -1,4 +1,3 @@
-# ResearchProjectSEG3904
 ## This project attempts to provide a Network Classification machine learning algorithm for detection of malicious TCP SYN flood as a distributed denial of service attack.
 
 Intially the dataset is collected from an edge router over a large period of time. Dataset contains about 1.5million samples of network traffic. 
